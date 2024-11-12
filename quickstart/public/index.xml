@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Nov 2024 15:56:21 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/first_post/my-first-post/</link>
+      <pubDate>Tue, 12 Nov 2024 15:56:21 +0700</pubDate>
+      <guid>http://localhost:1313/posts/first_post/my-first-post/</guid>
+      <description>&lt;h1 id=&#34;hello-bro&#34;&gt;Hello bro&lt;/h1&gt;&#xA;&lt;h2 id=&#34;this-my-first-post-using-hugo&#34;&gt;This my first post using Hugo&lt;/h2&gt;&#xA;&lt;p&gt;{{ $image := .Resources.Get &amp;ldquo;El_Gato_Original.webp&amp;rdquo; }}&#xA;{{/* Convert the image from JPG to PNG. */}}&#xA;{{ $image := $image.Process &amp;ldquo;png&amp;rdquo; }}&#xA;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
